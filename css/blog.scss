@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*body {
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.blog {
+    height: 50vh;
+    padding-top: 120px;
+    background-color: #D7CFC1;
+    background: url(https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/REJ93.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        color: #072F60;
+        font-size: 45px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #8F9598;
+        display: inline-block;
+
+        &:hover {
+            color: #3BBCA7;
+            transition: 0.3s ease-in-out;
+        }
+    }
+}
+
+
+// blog end 
+// 000000000000000000000000000000000
+
+.blog-boxes {
+    background-color: #F7F7F7;
+padding-bottom: 40px;
+    .lifestyle {
+        padding: 40px 0 0;
+
+        border-radius: 10px;
+
+
+        .img-box {
+
+            img {
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                cursor: pointer;
+            }
+
+        }
+
+        .box-text {
+            padding: 20px 0 40px 20px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+            background-color: white;
+
+
+
+            h4 {
+                color: #072F60;
+                cursor: pointer;
+
+                &:hover {
+                    color: #3BBCA7;
+                    transition: 0.5s ease-in-out;
+                }
+            }
+
+
+            ul {
+
+                li {
+                    list-style: none;
+                    padding-left: 15px;
+
+                    a {
+                        text-decoration: none;
+                        display: inline-block;
+                        color: #8F9598;
+                        font-weight: 380;
+
+                        &:hover {
+                            color: #3BBCA7;
+                            transition: 0.5s ease-in-out;
+                        }
+
+                        i {
+                            padding-right: 5px;
+                            color: #3BBCA7;
+                        }
+                    }
+                }
+            }
+
+            .a {
+                text-decoration: none;
+                display: inline-block;
+                padding-top: 20px;
+                font-size: 13px;
+                color: #3BBCA7;
+                position: relative;
+
+                &:hover {
+                    &::before {
+                        left: 0;
+
+                        width: 100%;
+                    }
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 0;
+                    // z-index: -1;
+                    left: 50%;
+                    top: 100%;
+                    bottom: 0;
+                    background: #2098D1;
+                    height: 1px;
+                    transition: 0.5s ease-in-out;
+                }
+            }
+        }
+
+    }
+}

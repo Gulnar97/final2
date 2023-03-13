@@ -8,6 +8,399 @@
   font-family: "Heebo", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* body {
+  font-family: "Heebo", sans-serif;
+}
+
+.blog {
+  height: 50vh;
+  padding-top: 120px;
+  background-color: #D7CFC1;
+  background: url(https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/REJ93.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blog h1 {
+  color: #072F60;
+  font-size: 45px;
+}
+.blog a {
+  text-decoration: none;
+  color: #8F9598;
+  display: inline-block;
+}
+.blog a:hover {
+  color: #3BBCA7;
+  transition: 0.3s ease-in-out;
+}
+
+.blog-boxes {
+  background-color: #f6f2f2;
+  padding-bottom: 40px;
+}
+.blog-boxes .lifestyle {
+  padding: 40px 0 0;
+  position: relative;
+  border-radius: 10px;
+}
+.blog-boxes .lifestyle .bos {
+  position: absolute;
+  background-color: #3BBCA7;
+  top: 80px;
+  left: 30px;
+  border-radius: 20px;
+  padding: 3px 17px;
+  cursor: pointer;
+}
+.blog-boxes .lifestyle .bos span {
+  color: white;
+  font-size: 14px;
+}
+.blog-boxes .lifestyle .icon {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  z-index: 9999;
+}
+.blog-boxes .lifestyle .icon i {
+  z-index: 99999;
+  color: #072F60;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 20px 23px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.blog-boxes .lifestyle .icon i:hover {
+  background-color: #3BBCA7;
+  color: white;
+}
+.blog-boxes .lifestyle .img-box img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+.blog-boxes .lifestyle .box-text {
+  padding: 20px 0 40px 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+}
+.blog-boxes .lifestyle .box-text h4 {
+  color: #072F60;
+  cursor: pointer;
+}
+.blog-boxes .lifestyle .box-text h4:hover {
+  color: #3BBCA7;
+  transition: 0.5s ease-in-out;
+}
+.blog-boxes .lifestyle .box-text ul li {
+  list-style: none;
+  padding-left: 15px;
+}
+.blog-boxes .lifestyle .box-text ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #8F9598;
+  font-weight: 380;
+}
+.blog-boxes .lifestyle .box-text ul li a:hover {
+  color: #3BBCA7;
+  transition: 0.5s ease-in-out;
+}
+.blog-boxes .lifestyle .box-text ul li a i {
+  padding-right: 5px;
+  color: #3BBCA7;
+}
+.blog-boxes .lifestyle .box-text .a {
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 13px;
+  color: #3BBCA7;
+  position: relative;
+}
+.blog-boxes .lifestyle .box-text .a:hover::before {
+  left: 0;
+  width: 100%;
+}
+.blog-boxes .lifestyle .box-text .a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 50%;
+  top: 100%;
+  bottom: 0;
+  background: #2098D1;
+  height: 1px;
+  transition: 0.5s ease-in-out;
+}
+.blog-boxes .slide {
+  padding: 5%;
+  padding-left: 45%;
+}
+.blog-boxes .slide a {
+  display: inline-block;
+  text-decoration: none;
+}
+.blog-boxes .slide .num1 {
+  color: white;
+  margin-right: 10px;
+}
+.blog-boxes .slide .num1 a {
+  display: inline-flex;
+  text-decoration: none;
+  color: white;
+  background-color: #3BBCA7;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.blog-boxes .slide .num2 a {
+  display: inline-flex;
+  color: #8F9598;
+  transition: 0.5s ease-in-out;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.blog-boxes .slide .num2 a:hover {
+  color: #3BBCA7;
+}
+.blog-boxes .slide .num3 {
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+.blog-boxes .slide .num3 a i {
+  padding-left: 15px;
+  color: #8F9598;
+  transition: 0.5s ease-in-out;
+}
+.blog-boxes .slide .num3 a i:hover {
+  color: #3BBCA7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* body {
+  font-family: "Heebo", sans-serif;
+}
+
+.blog {
+  height: 50vh;
+  padding-top: 120px;
+  background-color: #D7CFC1;
+  background: url(https://thepixelcurve.com/wp/lmsmart/lp/wp-content/uploads/sites/2/2021/12/REJ93.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blog h1 {
+  color: #072F60;
+  font-size: 45px;
+}
+.blog a {
+  text-decoration: none;
+  color: #8F9598;
+  display: inline-block;
+}
+.blog a:hover {
+  color: #3BBCA7;
+  transition: 0.3s ease-in-out;
+}
+
+.blog-boxes {
+  background-color: #f6f2f2;
+  padding-bottom: 40px;
+}
+.blog-boxes .lifestyle {
+  padding: 40px 0 0;
+  position: relative;
+  border-radius: 10px;
+}
+.blog-boxes .lifestyle .bos {
+  position: absolute;
+  background-color: #3BBCA7;
+  top: 80px;
+  left: 30px;
+  border-radius: 20px;
+  padding: 3px 17px;
+  cursor: pointer;
+}
+.blog-boxes .lifestyle .bos span {
+  color: white;
+  font-size: 14px;
+}
+.blog-boxes .lifestyle .icon {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  z-index: 9999;
+}
+.blog-boxes .lifestyle .icon i {
+  z-index: 99999;
+  color: #072F60;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 20px 23px;
+  cursor: pointer;
+}
+.blog-boxes .lifestyle .icon i:hover {
+  background-color: #3BBCA7;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.blog-boxes .lifestyle .img-box img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+.blog-boxes .lifestyle .box-text {
+  padding: 20px 0 40px 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+}
+.blog-boxes .lifestyle .box-text h2 {
+  font-size: 25px;
+  color: #072F60;
+  padding: 30px;
+}
+.blog-boxes .lifestyle .box-text h2 i {
+  color: #3BBCA7;
+  padding-right: 10px;
+}
+.blog-boxes .lifestyle .box-text h3 {
+  font-size: 25px;
+  color: #072F60;
+  cursor: pointer;
+}
+.blog-boxes .lifestyle .box-text h3:hover {
+  color: #3BBCA7;
+  transition: 0.5s ease-in-out;
+}
+.blog-boxes .lifestyle .box-text h3 i {
+  color: #3BBCA7;
+  padding-right: 10px;
+}
+.blog-boxes .lifestyle .box-text h6 {
+  padding-top: 15px;
+  color: #3BBCA7;
+}
+.blog-boxes .lifestyle .box-text h4 {
+  color: #072F60;
+  cursor: pointer;
+}
+.blog-boxes .lifestyle .box-text h4:hover {
+  color: #3BBCA7;
+  transition: 0.5s ease-in-out;
+}
+.blog-boxes .lifestyle .box-text ul li {
+  list-style: none;
+  padding-left: 15px;
+}
+.blog-boxes .lifestyle .box-text ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #8F9598;
+  font-weight: 380;
+}
+.blog-boxes .lifestyle .box-text ul li a:hover {
+  color: #3BBCA7;
+  transition: 0.5s ease-in-out;
+}
+.blog-boxes .lifestyle .box-text ul li a i {
+  padding-right: 5px;
+  color: #3BBCA7;
+}
+.blog-boxes .lifestyle .box-text .a {
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 13px;
+  color: #3BBCA7;
+  position: relative;
+}
+.blog-boxes .lifestyle .box-text .a:hover::before {
+  left: 0;
+  width: 100%;
+}
+.blog-boxes .lifestyle .box-text .a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 50%;
+  top: 100%;
+  bottom: 0;
+  background: #2098D1;
+  height: 1px;
+  transition: 0.5s ease-in-out;
+}
+.blog-boxes .slide2 {
+  padding: 5%;
+  padding-left: 45%;
+}
+.blog-boxes .slide2 a {
+  display: inline-block;
+  text-decoration: none;
+}
+.blog-boxes .slide2 .nu1 a i {
+  display: inline-flex;
+  text-decoration: none;
+  color: rgb(156, 154, 154);
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.blog-boxes .slide2 .nu2 a {
+  display: inline-flex;
+  color: #8F9598;
+  transition: 0.5s ease-in-out;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.blog-boxes .slide2 .nu2 a:hover {
+  color: #3BBCA7;
+}
+.blog-boxes .slide2 .nu3 {
+  color: rgb(254, 254, 254);
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+.blog-boxes .slide2 .nu3 a {
+  display: inline-flex;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #3BBCA7;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
 #platform {
   background-color: #F6F7F9;
   position: relative;

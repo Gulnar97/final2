@@ -6,9 +6,11 @@
 }
 *body {
     font-family: 'Heebo', sans-serif;
+
 }
 
-
+@import '_blog1.scss';
+@import '_blog2.scss';
 
 #platform {
     background-color: #F6F7F9;
